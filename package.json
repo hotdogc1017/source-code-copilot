@@ -1,7 +1,7 @@
 {
   "name": "source-code-copilot",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -12,9 +12,11 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^2.22.4",
     "@crxjs/vite-plugin": "^1.0.14",
     "@vitejs/plugin-vue": "^2.3.4",
     "autoprefixer": "^10.4.19",
+    "eslint": "9.5.0",
     "postcss": "^8.4.39",
     "prettier": "3.3.3",
     "tailwindcss": "^3.4.6",
