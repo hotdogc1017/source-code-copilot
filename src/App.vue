@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useFetch } from '@vueuse/core'
 
 const msg = ref('Hello world')
 </script>
